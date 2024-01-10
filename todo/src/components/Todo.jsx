@@ -8,8 +8,8 @@ const Todo = ({todo}) => {
       <p className="category"> ({todo.category})</p>
     </div>
     <div>
-      <button>Feito</button>
-      <button>Não feito</button>
+      <button className="complete">Feito</button>
+      <button className="remove">Não feito</button>
     </div>
   </div>
   )

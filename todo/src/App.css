@@ -1,5 +1,5 @@
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #f4f4f4;
   padding: 30px;
   color:#333;
@@ -11,7 +11,7 @@ body{
 .app {
   max-width: 600px;
   margin: 0 auto 300px;
-  background-color: #efefef;
+  background-color: #EBCFDE;
   padding: 20px 30px;
   border-radius: 10px;
 }
@@ -31,3 +31,39 @@ p{
 input{
   box-sizing: border-box;
 }
+
+button{
+  background-color: #C8B2EA;
+  color: #000;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+ 
+button:hover{
+  opacity: 1;
+}
+
+.complete{
+  background-color: #5cb85c;
+}
+
+.remove{
+  background-color: #d9534f;
+}
+
+.todo-form{
+  padding-bottom: 1.5 rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  width: 100%;
+}
+
